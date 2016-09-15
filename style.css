@@ -1,0 +1,137 @@
+.name{
+	background-color: white;
+	width: 600px;
+	height: 60px;
+}
+.title_space{
+	margin-left: 40px;
+}
+h1{
+	margin-left: 20px;
+	color: orange;
+}
+.quality{
+	font-family: verdana;
+	color: orange;
+	text-align: center;
+	float: right;
+}
+.info{
+	width: 150px;
+	height: 970px;
+	float:left;
+	background-color: #3CB371;
+	
+}
+.adresse{
+	font-family: verdana;
+	margin-top: 50px;
+}
+.adresse li{
+	padding-bottom: 20px;
+	list-style: none;
+	font-size: 20px;
+	padding-right: 20px;
+}
+.title_cv {
+	width: 600px;
+	height: 75px;
+	background-color: #FF8C00;
+	margin-left: 160px;
+	color:black;
+	text-align: center;
+}
+.title_cv h2{
+	position:absolute;
+	margin-left:200px;
+	font-family: verdana;
+}
+.experience{
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	background-color: #2E8B57;	
+	margin-left: 180px;	
+}
+h4{
+	text-align: center;
+	padding-top:15px; 
+	font-family: verdana;
+}
+.exp_pro li{
+	margin-bottom: 10px;
+}
+.exp_pro{
+	font-family: cursive;
+	padding-left: 180px;
+}
+.exp_pro span{
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 20px;
+
+}
+
+.formation{
+	width: 300px;
+	height: 50px;
+	background-color: #228B22;
+	margin-left: 180px;
+	font-family: verdana;
+}
+.learning{
+	padding-top: -5px;
+	font-family: cursive;
+}
+.skill{
+	width: 300px;
+	height: 50px;
+	background-color: #3CB371;	
+	margin:10px;
+	margin-left: 180px;
+	font-family: verdana;
+	
+}
+.skill_name span{
+	font-weight: bold;
+	font-style: italic;
+	color: green;
+}
+
+.skill_name{
+	width: 300px;
+	background-color: white;
+	margin:10px;
+	padding-left: 180px;
+	font-family: cursive;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.leisure{
+	width: 300px;
+	height: 50px;
+	background-color: #DAA520;	
+	margin:10px;
+	margin-left: 180px;
+	font-family: verdana;
+}
+
+.leisure_name{
+	width: 300px;
+	height: 50px;background-color: white;
+	margin-left:180px;
+	font-family: cursive;
+}
+
+html{
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0;
+
+}
+
+.ensemble-block{
+	width:60%;
+	margin-left: auto;
+	margin-right:auto;
+}
