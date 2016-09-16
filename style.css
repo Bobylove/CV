@@ -1,4 +1,8 @@
 
+li {
+	list-style: none;
+}
+
 .name{
 	background-color: white;
 	width: 600px;
@@ -8,27 +12,35 @@
 	margin-left: 40px;
 }
 h1{
+	font-size: 40px;
+	font-weight: bold;
 	margin-left: 20px;
 	color: orange;
 }
 .quality{
+	font-size: 20px;
+	font-weight: bold;
 	font-family: verdana;
 	color: green;
 	text-align: center;
 	float: right;
 	font-style: italic;
 }
+/* test tel 
 .phone_info{
 	font-size: 17px;
 	margin-right: 20px;
 }
+*/
 .info{
 	width: 150px;
-	height: 970px;
+	height: 1020px;
 	float:left;
 	background-color: #3CB371;
 }
 .adresse{
+	font-size: 20px;
+	font-weight: bold;
 	font-family: verdana;
 	margin-top: 50px;
 }
@@ -41,6 +53,21 @@ h1{
 	margin-left: -20px;
 	text-align: center;
 }
+/** liens réseaux sociaux **/
+.adresse a:active{
+	color: #7FFF00;
+}
+.adresse a:visited{
+	color: #7FFF00;
+}
+.adresse a:{
+	color: #7FFF00;
+}
+.adresse a:hover {
+	color:#ffffff;
+}
+
+/** fin liens **/
 .title_cv {
 	width: 600px;
 	height: 75px;
@@ -52,10 +79,13 @@ h1{
 .title_cv i{
 	margin-left: 400px;
 	margin-top: 10px;
+	color: #000000;
 }
 .title_cv h2{
+	font-size: 30px;
 	position:absolute;
-	margin-left:200px;
+	margin-left:150px;
+	margin-top: 10px;
 	font-family: verdana;
 }
 .experience{
@@ -66,12 +96,14 @@ h1{
 	margin-left: 180px;	
 }
 h4{
+	font-size: 20px;
+	font-weight: bold;
 	text-align: center;
 	padding-top:15px; 
 	font-family: verdana;
 }
 .exp_pro li{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .exp_pro{
 	font-family: cursive;
@@ -108,6 +140,7 @@ h4{
 	font-weight: bold;
 	font-style: italic;
 	color: green;
+	font-size: 20px;
 }
 
 .skill_name{
